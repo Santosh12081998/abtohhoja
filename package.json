@@ -8,12 +8,18 @@
     "@testing-library/react": "^13.3.0",
     "@testing-library/user-event": "^13.5.0",
     "firebase": "^9.9.1",
+<<<<<<< HEAD
     "flatlist-react": "^1.5.0",
+=======
+>>>>>>> 82de65031fc5b5020f8ee0bef0da39f57ffcc239
     "gh-pages": "^4.0.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-google-login": "^5.2.2",
+<<<<<<< HEAD
     "react-icons": "^4.4.0",
+=======
+>>>>>>> 82de65031fc5b5020f8ee0bef0da39f57ffcc239
     "react-router-dom": "^6.3.0",
     "react-scripts": "5.0.1",
     "styled-components": "^5.3.5",

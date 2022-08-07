@@ -1,4 +1,5 @@
 import React from 'react';
+<<<<<<< HEAD
 import { Constant } from '../components/Constant';
 
 const Home = () => {
@@ -733,6 +734,15 @@ const Home = () => {
 			{/* <!-- .row --> */ }
 		</div >
 	);
+=======
+
+const Home = () => {
+return (
+	<div>
+		<h1>Welcome, Anuj</h1>
+	</div>
+);
+>>>>>>> 82de65031fc5b5020f8ee0bef0da39f57ffcc239
 };
 
 export default Home;

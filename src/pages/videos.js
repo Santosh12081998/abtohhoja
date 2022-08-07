@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import { collection, getDocs, getFirestore } from 'firebase/firestore/lite';
 import React, { useEffect, useState } from 'react';
 import FlatList from 'flatlist-react';
@@ -70,4 +71,15 @@ const Videos = () => {
   );
 };
 
+=======
+
+import React from 'react';
+  
+const Videos = () => {
+  return (
+    <h1>You can write your blogs!</h1>
+  );
+};
+  
+>>>>>>> 82de65031fc5b5020f8ee0bef0da39f57ffcc239
 export default Videos;
