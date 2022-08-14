@@ -7,6 +7,199 @@
   pointer-events: none;
 }
 
+.but {
+  padding: 10px 30px;
+  font-size: 16px;
+  position: relative;
+  background: transparent;
+  color: #ffa500;
+  text-transform: uppercase;
+  border: 3px solid #219ebc;
+  cursor: pointer;
+  transition: all 0.7s;
+  overflow: hidden;
+  border-radius: 100px;
+}
+
+.watch {
+  padding: 10px 30px;
+  font-size: 16px;
+  position: relative;
+  background: transparent;
+  color: #ffa500;
+  text-transform: uppercase;
+  border: 3px solid #219ebc;
+  cursor: pointer;
+  transition: all 0.7s;
+  overflow: hidden;
+  /* border-radius: 100px; */
+}
+
+.watch:hover div{
+  color: #219ebc;
+  font-weight: bold;
+}
+
+.watch .left{
+  content: "";
+  position: absolute;
+  right: 100%;
+  top: 0;
+  width: 33%;
+  height: 100%;
+  background: #138808;
+}
+
+.watch:hover .left{
+  top: 0;
+  right: 0;
+}
+
+.watch .top{
+  content: "";
+  position: absolute;
+  /* z-index: 0; */
+  left: 33%;
+  top: 100%;
+  width: 33%;
+  /* height: 0%; */
+  background: #ffffff;
+}
+
+.hcenter {
+  height: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 3px solid #dbe4ed; /* Border color is optional */  
+
+}
+
+.ac{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.watch:hover .top{
+  top: 0;
+  /* left: 45%; */
+}
+
+.ashoka{
+  max-width: -webkit-fill-available;
+}
+
+.watch .bottom{
+  content: "";
+  position: absolute;
+  left: 50%;
+  top: 100%;
+  width: 33%;
+  height: 100%;
+  background: #FFFFFF;
+}
+
+.watch:hover .bottom{
+  top: 0;
+  left: 33%;
+}
+
+.watch .right{
+  content: "";
+  position: absolute;
+  left: 100%;
+  top: 0;
+  width: 33%;
+  height: 100%;
+  background: #FF9933;
+}
+
+.watch:hover .right{
+  top: 0;
+  left: 0;
+}
+
+/* .but div:hover{
+  color: #219ebc;
+} */
+
+.but:hover div{
+  color: #219ebc;
+  font-weight: bold;
+}
+
+span{
+  transition: all 0.7s;
+  z-index: -1;
+}
+
+.but .left{
+  content: "";
+  position: absolute;
+  right: 100%;
+  top: 0;
+  width: 33%;
+  height: 100%;
+  background: #138808;
+}
+
+.but:hover .left{
+  top: 0;
+  right: 0;
+}
+
+.but .top{
+  content: "";
+  position: absolute;
+  /* z-index: 0; */
+  left: 33%;
+  top: 100%;
+  width: 33%;
+  /* height: 0%; */
+  background: #ffffff;
+}
+
+.but:hover .top{
+  top: 0;
+  /* left: 45%; */
+}
+
+.ashoka{
+  max-width: -webkit-fill-available;
+}
+
+.but .bottom{
+  content: "";
+  position: absolute;
+  left: 50%;
+  top: 100%;
+  width: 33%;
+  height: 100%;
+  background: #FFFFFF;
+}
+
+.but:hover .bottom{
+  top: 0;
+  left: 33%;
+}
+
+.but .right{
+  content: "";
+  position: absolute;
+  left: 100%;
+  top: 0;
+  width: 33%;
+  height: 100%;
+  background: #FF9933;
+}
+
+.but:hover .right{
+  top: 0;
+  left: 0;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;

@@ -123,6 +123,10 @@ function App() {
 		console.log("Added Enquiry")
 	}
 
+	const openYoutube = () =>{
+		window.open(YoutubeLink, "_blank");
+	}
+
 	return (
 		// loading?
 		// <div></div>
@@ -220,8 +224,28 @@ function App() {
 											“Check Out Recorded Videos On <b>YOUTUBE</b>.”
 										</p>
 										<div class="text-right">
+											{/* <div class="center hcenter">
+												<img width="400" src="https://www.hubspot.com/hubfs/image-hubspot-centering-css.jpeg" />
+											</div> */}
 											{/* <div class="g-ytsubscribe" data-channel="GoogleDevelopers" data-layout="full" data-count="hidden"></div> */}
-											<a href={YoutubeLink} target="_blank" class="btn btn-primary tm-btn-next">Watch Videos</a>
+											{/* <a href={YoutubeLink} target="_blank" class="btn btn-primary tm-btn-next">Watch Videos</a> */}
+
+											<button
+												type="button"
+												class="watch"
+												onClick={()=>{
+													openYoutube()	
+												}}
+											>
+												<div>Watch Videos</div>
+												<span class="left"></span>
+												<span class="top ac">
+													<img src="/img/Ashoka.gif" class="ashoka" />
+												</span>
+												{/* <span class="bottom"></span> */}
+												<span class="right"></span>
+											</button>
+
 										</div>
 									</div>
 								</div>
@@ -385,7 +409,21 @@ function App() {
 										</div>
 
 										<div class="form-group tm-text-right">
-											<button onClick={()=>AddEnquiry()} type="button" class="btn btn-primary">Send</button>
+											{/* <button onClick={()=>AddEnquiry()} type="button" class="btn btn-primary">Send</button> */}
+											{/* <img src="/img/Ashoka.gif" /> */}
+											<button
+												type="button"
+												onClick={()=>AddEnquiry()}
+												class="but"
+											>
+												<div>Send</div>
+												<span class="left"></span>
+												<span class="top ac">
+													<img src="/img/Ashoka.gif" class="ashoka" />
+												</span>
+												{/* <span class="bottom"></span> */}
+												<span class="right"></span>
+											</button>
 										</div>
 									</form>}
 								</div>
